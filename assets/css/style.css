@@ -5,6 +5,7 @@ body{
     background-image: url('../img/Lidl-Logo.svg.webp');
     background-repeat: no no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .formation_body{
     background-image: url('../img/58195085_303.jpg');
@@ -95,6 +96,13 @@ footer ul li:first-child{
 }
 .contact .col:first-child{
     width: 25%;
+}
+marquee{
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: x-large;
+    color: azure;
+    
 }
 /*page contact*/
 .contact .col{
