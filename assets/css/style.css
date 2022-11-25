@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    background-image: url('../img/Lidl-Logo.svg.webp');
+    background-repeat: no no-repeat;
+    background-size: cover;
+}
+.formation_body{
+    background-image: url('../img/58195085_303.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo, nav{
+    width: 50%;
+    height: auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 0 5%;
+}
+header a{
+    color: aqua;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex
+}
+.colonne1, .colonne2{
+    width: 50%;
+}
+footer{
+    display: flex;
+    background: #ffff;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+footer div{
+    width: 33%;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    font-size: 17px;
+    color: #000;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: red;
+    background-color: aqua;
+    font-size: 30px;
+    line-height: 60px;
+}
+footer ul li:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer2{
+    font-size: 30px;
+    font-weight: lighter;
+    text-decoration: double;
+}
+/*page formation*/
+.formation_body{
+    background-image: url('../img/58195085_303.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formation{
+    display: block;
+    text-align: center;
+}
+.formation .col{
+    background: coral;
+    border: 2px dotted black;
+}
+.formation .col:first-child{
+    background: cadetblue
+}
+.formation .col:last-child{
+    background: rgb(121, 108, 0.1)
+}
+.contact .col:first-child{
+    width: 25%;
+}
+/*page contact*/
+.contact .col{
+    width: 75%;
+}
+.contact .formulaire{
+    background-color: antiquewhite;
+}
+.formulaire .input label, .formulaire .input input, .formulaire .input textarea{
+    display: block;
+    
+}
+.formulaire .input input, .formulaire .input textarea{
+    width: 80%;
+    height: 25px;
+    border: 2px;
+    border-radius: 10px;
+    
+}
+.formulaire .input input, .formulaire .input textarea:hover{
+    border: 3px solid darkgreen;
+    border-radius: 5px;
+}
+button[name="submit"]{
+    background-color: greenyellow;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(73, 58, 37);
+}
+button[type="reset"]{
+    background-color: rebeccapurple;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+button:hover{
+    background-color: violet;
+}
